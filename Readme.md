@@ -28,7 +28,7 @@ Para la realización de esta practica se ha realizado lo siguiente:
     ![Paso 6](img/10.png)
     - Para ello llevamos a cabo un CHECKOUT, ya que todos los ficheros en el Workspace son de sólo lectura. La primera acción que hay que llevar a cabo es desbloquearlo para que no sea de sólo lectura y advertir al resto del equipo. Esto lo hacemos marcando con CHECKOUT. Por tanto, cuando vamos a trabajar sobre   el fichero lo marcamos en P4V y automáticamente el servidor comunica al resto de clientes el estado actual del fichero.
     - Al hacer click derecho sobre el archivo se abrirá una pestaña preguntando a qué Changelist queremos asociar los datos de este fichero. Elegiremos una nueva o default y en la pestaña Pending, donde aparecen todas las Changelists, aparecerá el fichero que acabamos de desbloquear, pero esta vez su icono tendrá un símbolo de check de color rojo en la esquina superior izquierda, lo que significa que lo hemos reservado para poder modificarlo y ya ha dejado de ser read-only. 
-    - Al hacer click derecho sobre el archivo se abrirán varias opciones y entre todas elegiremos "Edit Pending Changelist"
+    - Al hacer click derecho sobre el archivo se abrirán varias opciones y elegimos "Edit Pending Changelist"
     ![Paso 7](img/15.png)
     - Se nos abrirá una pestaña como esta: (esta imagen es de ejemplo no se corresponde al archivo mencionado). 
     ![Paso 8](img/18.png)
