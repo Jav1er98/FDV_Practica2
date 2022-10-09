@@ -25,4 +25,18 @@ Para la realización de esta practica se ha realizado lo siguiente:
     ![Paso 5](img/9.png)
     - Pero antes de subir el proyecto se nos ha solicitado modificar el archivo presentación.txt
     ![Paso 6](img/10.png)
-    - Para ello llevamos a cabo un CHECKOUT,  ya que todos los ficheros en el Workspace son de sólo lectura.la primera acción que hay que llevar a cabo es desbloquearlo para que no sea de sólo lectura y advertir al resto del equipo. Esto lo hacemos marcando con CHECKOUT. Por tanto, cuando vamos a trabajar sobre el fichero lo marcamos en P4V y automáticamente el servidor comunica al resto de clientes el estado actual del fichero.
+    - Para ello llevamos a cabo un CHECKOUT, ya que todos los ficheros en el Workspace son de sólo lectura. La primera acción que hay que llevar a cabo es desbloquearlo para que no sea de sólo lectura y advertir al resto del equipo. Esto lo hacemos marcando con CHECKOUT. Por tanto, cuando vamos a trabajar sobre el fichero lo marcamos en P4V y automáticamente el servidor comunica al resto de clientes el estado actual del fichero.
+    - Al hacer click derecho sobre el archivo se abrirá una pestaña preguntando a qué Changelist queremos asociar los datos de este fichero. Elegiremos una nueva o default y en la pestaña Pending, donde aparecen todas las Changelists, aparecerá el fichero que acabamos de desbloquear, pero esta vez su icono tendrá un símbolo de check de color rojo en la esquina superior izquierda, lo que significa que lo hemos reservado para poder modificarlo y ya ha dejado de ser read-only. 
+    - Al hacer click derecho sobre el archivo se abrirán varias opciones y entre todas elegiremos "Edit Pending Changelist"
+    ![Paso 7](img/15.png)
+    - Se nos abrirá una pestaña como esta: (esta imagen es de ejemplo no se corresponde al archivo mencionado). 
+    ![Paso 8](img/18.png)
+    - Seleccionamos el archivo y se abrirá con el bloc de notas. Desde ahí podremos modificarlo. 
+    ![Paso 9](img/19.png)
+    - Finalmente vamos a la pestaña de Pending, seleccionar la Changelist que queremos sincronizar con el servidor. Ponemos una descripción para la Changelist y pulsar en Submit. Tras esto, nuestros cambios ya estarán en el servidor.
+    - Ahora queremos añadir un archivo txt con nuestro nombre al proyecto, para ello creamos un fichero en el directorio en el que se encuentra nuestro Workspace.
+    - Una vez hecho esto, seleccionamos la carpeta que queremos subir al Perforce, para ello le daremos al boton Add se nos abrirá una ventana pidiendo que seleccionemos a qué Changelist queremos asociar la modificación. En la imagen vemos que pretensacion.txt tiene tiene un símbolo de suma rojo en la esquina superior izquierda. Eso significa que está listo para ser añadido al servidor publicando la Changelist a la cual está asociado( en este caso me confundi y entendi que habia que añadirlo en este caso solo reverti ese fichero y el resto de proyecto se quedó subido). Seleccionamos la Changelist y pulsamos en Submit. Escribimos una descripción para la Changelist y pulsamos en Submit. Tras esto, nuestro proyecto ya estará en el servidor. 
+    ![Paso 10](img/12.png)
+    - Finalmente se nos pide crear otro proyecto básico en Unity y agregarlo al depot. Para ello repetimos los pasos comentdos y seleccionamos en este caso este "proyecto básico" para añadirlo al depot. En la siguiente imagen se puede ver el proyecto en proceso de subida.
+    ![Paso 11](img/16.png)
+   
