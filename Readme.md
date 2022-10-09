@@ -17,7 +17,7 @@ Para la realización de esta practica se ha realizado lo siguiente:
     depots queremos sincronizarlo. En nuestro caso solo necesitamos el llamado FDV2223, por lo que eliminaremos todos los demás para que no se sincronicen 
     con nuestro Workspace. Al terminar pulsamos Ok.
     ![Paso 2](img/2.png)
-    - Debemos tener cuidado al selecionar la ruta del depot, ya que contenia la ruta de /FDV2223/... en este caso la eliminamos.
+    - Debemos tener cuidado al selecionar la ruta del depot, ya que contenia la ruta de "/FDV2223/..."en este caso la eliminamos.
     ![Paso 3](img/5.png)
     - Si el directorio que hemos especificado no existía previamente, veremos que nos lo ha creado.
     ![Paso 4](img/8.png)
