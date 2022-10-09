@@ -30,7 +30,7 @@ Para la realización de esta practica se ha realizado lo siguiente:
     - Al hacer click derecho sobre el archivo se abrirá una pestaña preguntando a qué Changelist queremos asociar los datos de este fichero. Elegiremos una nueva o default y en la pestaña Pending, donde aparecen todas las Changelists, aparecerá el fichero que acabamos de desbloquear, pero esta vez su icono tendrá un símbolo de check de color rojo en la esquina superior izquierda, lo que significa que lo hemos reservado para poder modificarlo y ya ha dejado de ser read-only. 
     - Al hacer click derecho sobre el archivo se abrirán varias opciones y elegimos "Edit Pending Changelist"
     ![Paso 7](img/15.png)
-    - Se nos abrirá una pestaña como esta: (esta imagen es de ejemplo no se corresponde al archivo mencionado). 
+    - Se nos abrirá una pestaña como esta: (la imagen es de ejemplo no se corresponde al archivo mencionado). 
     ![Paso 8](img/18.png)
     - Seleccionamos el archivo y se abrirá con el bloc de notas. Desde ahí podremos modificarlo. 
     ![Paso 9](img/19.png)
