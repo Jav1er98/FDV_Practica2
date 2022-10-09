@@ -22,4 +22,7 @@ Para la realización de esta practica se ha realizado lo siguiente:
     - Si el directorio que hemos especificado no existía previamente, veremos que nos lo ha creado.
     ![Paso 4](img/8.png)
     - Dentro del WorkSpace tendremos nuestro proyecto de la entrega 1 el cual subiremos al depot asignado en este caso FDV2223.
-     ![Paso 5](img/9.png)
+    ![Paso 5](img/9.png)
+    - Pero antes de subir el proyecto se nos ha solicitado modificar el archivo presentación.txt
+    ![Paso 6](img/10.png)
+    - Para ello llevamos a cabo un CHECKOUT,  ya que todos los ficheros en el Workspace son de sólo lectura.la primera acción que hay que llevar a cabo es desbloquearlo para que no sea de sólo lectura y advertir al resto del equipo. Esto lo hacemos marcando con CHECKOUT. Por tanto, cuando vamos a trabajar sobre el fichero lo marcamos en P4V y automáticamente el servidor comunica al resto de clientes el estado actual del fichero.
