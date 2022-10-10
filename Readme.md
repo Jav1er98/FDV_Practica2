@@ -11,7 +11,7 @@
 Para la realización de esta practica se ha realizado lo siguiente:
  - Utilizar la herramienta HellixCore  con el repositorio creado para el proyecto de la tarea 1.
     - El primer paso es crear un Workspace, o un directorio local en nuestro PC que contendrá copias locales de ficheros almacenados en el servidor de
-    Perforce y con el que deberemos sincronizarnos.Para ello, lo primero es abrir el desplegable de Workspaces y seleccionar la opción de añadir uno nuevo. 
+    Perforce y con el que deberemos sincronizarnos. Para ello, debemos abrir el desplegable de Workspaces y seleccionar la opción de añadir uno nuevo. 
     ![Paso 1](img/17.png)
     - Esto nos abrirá una nueva ventana, en la cual deberemos especificar el nombre del Workspace, en qué directorio local lo almacenaremos y con qué 
     depots queremos sincronizarlo. En nuestro caso solo necesitamos el llamado FDV2223, por lo que eliminaremos todos los demás para que no se sincronicen 
