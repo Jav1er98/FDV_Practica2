@@ -15,7 +15,7 @@ Para la realización de esta practica se ha realizado lo siguiente:
     ![Paso 1](img/17.png)
     - Esto nos abrirá una nueva ventana, en la cual deberemos especificar el nombre del Workspace, en qué directorio local lo almacenaremos y con qué 
     depots queremos sincronizarlo. En nuestro caso solo necesitamos el llamado FDV2223, por lo que eliminaremos todos los demás para que no se sincronicen 
-    con nuestro Workspace. Al terminar pulsamos Ok.
+    con nuestro Workspace.
     ![Paso 2](img/2.png)
     - Debemos tener cuidado al selecionar la ruta del depot, ya que contenia la ruta de "/FDV2223/..."(se elimina).
     ![Paso 3](img/5.png)
